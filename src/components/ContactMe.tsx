@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import { Boxes } from "./ui/background-boxes";
 import { SiGit, SiGmail, SiLinkedin } from "react-icons/si";
 

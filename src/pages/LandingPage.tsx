@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import Hero from "@/components/Hero";
 import CareerData from "@/components/CareerData";
 import Skills from "@/components/Skills";
-import ProjectSection2 from "@/components/ProjectSection2";
+import ProjectSection from "@/components/ProjectSection";
 import ContactMe from "@/components/ContactMe";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
@@ -25,7 +25,7 @@ const LandingPage = () => {
             {/* Personal Projects Section with ref */}
             <div ref={projectsRef} className="text-center dark:bg-black text-white">
                 <h1 className="lg:text-4xl text-2xl">Personal Projects</h1>
-                <ProjectSection2 />
+                <ProjectSection />
             </div>
 
             <ContactMe />

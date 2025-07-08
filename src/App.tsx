@@ -1,5 +1,4 @@
 
-import { ModeToggle } from './components/mode-toggle';
 import LandingPage from './pages/LandingPage';
 import { ThemeProvider } from "@/components/theme-provider";
 
