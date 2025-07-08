@@ -10,7 +10,7 @@ const LandingPage = () => {
     const projectsRef = useRef<HTMLDivElement>(null);
 
     return (
-        <div>
+        <div className="bg-black">
 
             <Hero scrollToProjects={() => {
                 projectsRef.current?.scrollIntoView({ behavior: "smooth" });
