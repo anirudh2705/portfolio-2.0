@@ -3,13 +3,13 @@ import { SiGit, SiGmail, SiLinkedin } from "react-icons/si";
 
 const ContactMe = () => {
     return (
-        <div className="relative h-80 w-full bg-black py-12 px-10 md:px-36 overflow-hidden ">
+        <div className="relative h-96 md:h-80  w-full bg-black py-12 px-10 md:px-36 overflow-hidden ">
             <div className="absolute inset-0 w-full h-full bg-black z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
             <Boxes />
 
-            <div className="relative z-20 flex flex-col md:flex-row justify-around gap-12">
-                {/* Contact Section */}
+            <div className="relative z-20 flex flex-col md:flex-row justify-around gap-12 ">
+
                 <div className="flex flex-col gap-4">
                     <h1 className="text-2xl md:text-4xl font-semibold text-white">Contact Me</h1>
 
